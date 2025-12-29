@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Hybrid | Portfolio</title>
+    <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="./assets/Modern Minimalist Cyber Hybrid Logo.png" alt="" />
+        Cyber Hybrid
+      </div>
+
+      <nav id="nav-links">
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero slide-in">
+        <div class="hero-text">
+          <p class="hero-intro">Hi, I’m</p>
+          <h1>David D. Bankole</h1>
+          <h2>Software Engineering Student</h2>
+          <p class="hero-desc">
+            I build clean, responsive websites and dynamic applications using
+            modern web technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="./assets/David_D_Bankole_CV.pdf" class="btn outline">Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="./assets/img3.jpg" alt="David Bankole" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section slide-in">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-text">
+          Hello! I’m <strong>David D. Bankole</strong>, also known as
+          <strong>Cyber Hybrid</strong>. I’m a
+          <strong>Software Engineering student at BlueCrest University</strong>
+          (3rd semester) with hands-on experience in web development,
+          cybersecurity, and AI. My current projects include building
+          portfolios, dashboards, and business website concepts. I aim to
+          combine tech and creativity to develop practical solutions and explore
+          opportunities in AI, app development, and cybersecurity. Outside
+          coding, I enjoy mentoring, learning new technologies, and working on
+          innovative projects. I’m passionate about creating efficient and
+          visually appealing applications, and my goal is to continuously
+          improve and take on real-world projects to expand my portfolio.
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section slide-in">
+        <h3 class="section-title">Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">Python</div>
+          <div class="skill-card">Dash</div>
+          <div class="skill-card">Plotly</div>
+          <div class="skill-card">Git & GitHub</div>
+          <div class="skill-card">SQL</div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+   <section id="projects" class="section slide-in">
+  <h3 class="section-title">Projects</h3>
+
+  <div class="projects-grid">
+
+    <div class="project-card slide-in"
+         data-title="Personal Portfolio"
+         data-description="A responsive personal portfolio website featuring light & dark mode, animations, and modern UI."
+         data-tech="HTML • CSS • JavaScript"
+         data-link="https://yourportfolio.com">
+      <h4>Personal Portfolio</h4>
+      <p>Responsive portfolio website with light and dark mode.</p>
+      <span>HTML • CSS • JavaScript</span>
+    </div>
+
+    <div class="project-card slide-in"
+         data-title="Business Website (Concept)"
+         data-description="A modern website concept designed for NGOs and small businesses with clean layouts and accessibility in mind."
+         data-tech="HTML • CSS • JavaScript"
+         data-link="#">
+      <h4>Business Website (Concept)</h4>
+      <p>Modern website for a small business or NGO.</p>
+      <span>HTML • CSS • JavaScript</span>
+    </div>
+
+    <div class="project-card slide-in"
+         data-title="Data Dashboard"
+         data-description="An interactive data visualization dashboard using Python, Dash, and Plotly."
+         data-tech="Python • Dash • Plotly"
+         data-link="https://github.com/yourgithub">
+      <h4>Data Dashboard</h4>
+      <p>Interactive dashboard built with Python and Plotly.</p>
+      <span>Python • Dash • Plotly</span>
+    </div>
+
+  </div>
+</section>
+
+
+      <!-- CONTACT -->
+      <section id="contact" class="section slide-in">
+        <h3 class="section-title">Contact</h3>
+
+        <div class="contact-info">
+          <p>
+            Email:
+            <a href="mailto:davidbankole56@gmail.com"
+              >davidbankole56@gmail.com</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/yourusername" target="_blank"
+              >github.com/yourusername</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-social">
+          <a href="https://github.com/yourusername" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.facebook.com/davidbankole.568?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://wa.me/231776766055" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.12345!2d-10.800!3d6.300!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x...!2sMonrovia!5e0!3m2!1sen!2slr!4v1234567890"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer slide-in">© 2025 Cyber Hybrid</footer>
+    <!-- PROJECT MODAL -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+
+    <h3 id="modalTitle"></h3>
+    <p id="modalDescription"></p>
+    <p class="modal-tech" id="modalTech"></p>
+
+    <a id="modalLink" href="#" target="_blank" class="modal-btn">
+      View Project
+    </a>
+  </div>
+</div>
+
+  </body>
+  <script src="js/main.js"></script>
+</html>
